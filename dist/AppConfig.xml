@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<absolutePath>c:\\users\\jakub\\Desktop\\</absolutePath>
+	<rasterDir>raster2import</rasterDir>
+	<geoserverDataDir>C:\\Program Files (x86)\\GeoServer 2.2.0\\data_dir\\data\\</geoserverDataDir>
+	<geoserverUserName>admin</geoserverUserName>
+	<geoserverPassword>geoserveradmin</geoserverPassword>
+	<geonetworkUserName>admin</geonetworkUserName>
+	<geonetworkPassword>admin</geonetworkPassword>
+	<postgresConection>jdbc:postgresql://localhost/test</postgresConection>
+	<postgresUserName>postgres</postgresUserName>
+	<postgresPassword>interneT</postgresPassword>
+	<geoserverLocation>http://localhost:8082/geoserver</geoserverLocation>
+	<geonetworkLocation>http://localhost:8080/geonetwork</geonetworkLocation>
+</root>

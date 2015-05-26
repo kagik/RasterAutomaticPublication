@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!—-Konfiguracni XML pro aplikaci -->
+<root>
+<!—-Absolutni cesta k adresari, ve kterem se nachazi slozka s rastry -->
+	<absolutePath>c:\\users\\jakub\\Desktop\\</absolutePath>
+<!—-Adresar s rastry -->
+	<rasterDir>raster2import</rasterDir>
+<!—-Cesta k datovému adresari GeoServeru -->
+	<geoserverDataDir>C:\\Progr~\\GeoServer2.2.0\\data_dir\\data\\</geoserverDataDir>
+<!—-GeoServer uzivatelske jmeno -->
+	<geoserverUserName>admin</geoserverUserName>
+<!—-GeoServer heslo -->
+	<geoserverPassword>geoserver</geoserverPassword>
+<!—-GeoNetwork uzivatelske jmeno -->
+	<geonetworkUserName>admin</geonetworkUserName>
+<!—-GeoNetwork heslo -->
+	<geonetworkPassword>admin</geonetworkPassword>
+<!—-Pripojeni k databazi pro publikaci rastru -->
+	<postgresConection>jdbc:postgresql://localhost/test</postgresConection>
+<!—-PostgreSQL uzivatelske jmeno -->
+	<postgresUserName>postgres</postgresUserName>
+<!—- PostgreSQL heslo -->
+	<postgresPassword>password</postgresPassword>
+<!—-URL GeoServeru -->
+	<geoserverLocation>http://localhost:8082/geoserver</geoserverLocation>
+<!—-URL GeoNetworku -->
+	<geonetworkLocation>http://localhost:8080/geonetwork</geonetworkLocation>
+</root>
